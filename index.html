@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to KoKoa Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>18:43</span>
+      </div>
+      <div class="status-bar__column">
+        <span>11%</span>
+        <i class="fas fa-battery-quarter fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+
+    <header>
+      <div class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to KoKoaTalk</h1>
+        <p class="welcome-header__text">
+          If you havd a KoKoa Account,<br />
+          log in with your email or phone number.
+        </p>
+      </div>
+    </header>
+
+    <!--아이디 비밀번호, 로그인 버튼, 회원가입 창 등 웹사이트로 정보를 보낼 수
+    있는 모든 요소를 "form"이라고 함.-->
+
+    <form id="login-form">
+      <input type="text" placeholder="Email or phone umber" />
+      <input type="password" placeholder="Password" />
+    </form>
+    <form id="login-form__button">
+      <input type="submit" value="Log In" />
+      <input type="submit" value="Sign Up" />
+      <a href="#">Find Kokoa Accout or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
