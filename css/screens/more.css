@@ -1,0 +1,53 @@
+.screen-header__icons__music {
+  margin-left: 25px;
+}
+
+.user-component__subtitle {
+  display: flex;
+}
+
+#exclamation-mark {
+  height: 12px;
+  align-items: center;
+  justify-content: center;
+  border: 1.6px solid tomato;
+  border-radius: 9px;
+  color: tomato;
+  padding: 0px 4.5px;
+  margin-left: 5px;
+  margin-top: 2px;
+  font-size: 12px;
+  font-weight: 1000;
+}
+
+.fa-comment-alt {
+  color: var(--grey);
+}
+
+.more-screen .icon-row {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.suggestions {
+  padding-top: 25px;
+  border-top: var(--main-border);
+}
+
+.icon-row__icon span {
+  padding-top: 10px;
+}
+
+.suggestions-icon {
+  width: 345px;
+}
+
+.icon-row__picture {
+  height: 55px;
+  width: 55px;
+  border-radius: 10px;
+}
+
+.suggestions-icon .icon-row__icon span {
+  color: var(--grey);
+}

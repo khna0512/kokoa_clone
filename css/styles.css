@@ -6,11 +6,25 @@
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/badge.css";
+@import "components/noti-dot.css";
+@import "components/icon-row.css";
 
 /*Screens*/
 @import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/chats.css";
+@import "screens/find.css";
+@import "screens/more.css";
 
 body {
+  color: #393d41;
   font-family: "Open Sans", sans-serif;
-  height: 1000vh;
+  height: 130vh;
+  width: 98vw;
+}
+
+.main-screen {
+  padding: 0px var(--horizontal-space);
 }
