@@ -1,0 +1,41 @@
+.settings__setting {
+  padding: 25px 0;
+  border-bottom: var(--main-border);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  opacity: 0.9;
+  justify-content: space-between;
+}
+
+.settings__setting:first-child {
+  border-color: rgba(0, 0, 0, 0.05);
+}
+
+.settings__setting:nth-child(2) {
+  border-color: rgba(0, 0, 0, 0.05);
+}
+
+.settings__setting:nth-child(3) {
+  padding-bottom: 50px;
+}
+
+.settings__setting i {
+  margin-right: 20px;
+  opacity: 0.9;
+}
+
+.fa-info {
+  font-size: 10px;
+  height: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1.6px solid #393d41;
+  border-radius: 18px;
+  padding: 5px 8px 0px 8px;
+}
+
+.settings_setting-column:last-child {
+  opacity: 0.5;
+}
