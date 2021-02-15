@@ -6,6 +6,11 @@
   padding-top: 30px;
 }
 
+/*absolute에서 요소들 간격 맞추는 것 쉽지 않아서 3칼럼을 33씩 나눈 후 정렬*/
+.alt-header__column {
+  width: 33%;
+}
+
 .alt-header__title {
   font-size: 26px;
   font-weight: 600;
@@ -15,6 +20,12 @@
   margin-right: auto;
 }
 
+.alt-header__column:nth-child(2) {
+  text-align: center;
+}
+
 .alt-header__column:last-child {
   margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
 }
